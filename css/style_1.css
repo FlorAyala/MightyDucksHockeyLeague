@@ -1,3 +1,69 @@
-.titulo{
-width: 20px;
+.titulo {
+    font-size: 78px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: -7px;
+    margin-left: 50px;
+}
+
+.foto_portada {
+
+    width: 100%;
+    height: 450px;
+}
+
+ul {
+    list-style: none;
+
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.nav li {
+    padding-bottom: 50px;
+}
+
+nav {
+    margin-left: 30px;
+
+    border: 20px;
+}
+
+.enDondeEstoy {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    margin: 0%;
+    padding: 20px;
+
+}
+
+.logo {
+    width: 200px;
+    position: absolute;
+    right: 107px;
+    top: 396px;
+}
+
+.contenedor_principal {
+    display: flex;
+    margin-top: 20px;
+
+
+}
+
+.contenedor_de_informacion {
+    margin-left: 100px;
+
+}
+
+.contact {
+    margin-top: 50px;
 }

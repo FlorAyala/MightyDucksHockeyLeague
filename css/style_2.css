@@ -1,0 +1,48 @@
+/* body {
+    margin: 0;
+    
+} */
+
+.titulo{
+    font-size: 70px;
+}
+.enDondeEstoy{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    margin: 0%;
+    padding: 20px;
+
+}
+.foto_portada{
+
+    width: 100%;
+    height: 450px;
+}
+nav{
+    position: absolute;
+    top: 100px;
+    right: 30px;
+    background-color: black;
+}
+ul{
+    list-style: none;
+    
+}
+nav li {
+    display: inline; 
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    
+}
+.contenedor_principal .logo {
+    display: flex;
+   justify-content: end;
+    margin-top: 20px;
+
+
+}
