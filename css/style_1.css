@@ -1,10 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+      /* height: 20vh; */
+      background-color: cadetblue;
+}
+main{
+    height: 70vh;
+   
+
+}
+footer{
+    height:10vh ;
+ 
+}
 .titulo {
     font-size: 78px;
     display: flex;
     justify-content: space-around;
     position: absolute;
     top: -7px;
-    margin-left: 50px;
+    margin: 20px 50px;
 }
 
 .foto_portada {
@@ -48,22 +67,43 @@ nav {
 .logo {
     width: 200px;
     position: absolute;
+
     right: 107px;
     top: 396px;
 }
 
 .contenedor_principal {
     display: flex;
-    margin-top: 20px;
+
+    margin: 40px 100px;
+    justify-content: space-between;
+    align-items: center;
 
 
 }
 
 .contenedor_de_informacion {
-    margin-left: 100px;
+
+    margin-left: 40px;
+
 
 }
 
 .contact {
     margin-top: 50px;
+}
+
+figure{
+    margin-left: 50px;
+}
+.footer{
+    text-align: center;
+   padding-top: 12px;
+    
+
+}
+.fotoContenedorDeInfo{
+    width: 300px;
+    margin-top:  50px 50px;
+
 }
