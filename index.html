@@ -8,8 +8,9 @@
     <meta name="keywords" content="ice hockye, sport, school ">
     <meta name="author" content="Florencia Ayala">
     <link rel="shortcut icon" href="./assets/imagenes/Logo-Mighty-ducks-01.png" type="image/x-icon">
-    <link rel="stylesheet" href="./css/style_1.css">
-    <!-- <link rel="stylesheet" href="./css/style_2.css"> -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style_2.css">
     <script src="https://kit.fontawesome.com/e337b11929.js" crossorigin="anonymous"></script>
 
     <title>Mighty Ducks Hockey League</title>
@@ -17,55 +18,68 @@
 
 <body>
     <header>
-        <!-- Titulo -->
-        <img class="foto_portada" src="./assets/imagenes/design1_image2.jpg"
-            alt="Cover photo of some ice hockey players">
-
-        <!-- foto del logos -->
-        <img class="logo" src="./assets/imagenes/Logo-Mighty-ducks-01.png" width="300"
-            alt=" Photo of the Mighty Ducks Hockey League logo">
-        <h1 class="titulo">Mighty Ducks Hockey League</h1>
-    </header>
-
-    <main class="contenedor_principal">
-        <h2 class="enDondeEstoy"> Home</h2>
 
         <!-- Navegador  -->
+
+
         <nav class="nav">
+            <img class="logo" src="./assets/imagenes/Logo-Mighty-ducks-01.png" width="300"
+                alt=" Photo of the Mighty Ducks Hockey League logo">
             <ul>
                 <li> <a href="#">Home</a></li>
                 <li> <a href="./about.html">About</a></li>
+                <li> <a href="./infoGame.html">Game Information</a></li>
+                <li> <a href="./rules.html">Rules</a></li>
                 <li> <a href="./contact.html">Contact</a></li>
             </ul>
         </nav>
-        <section class="banner">
-            <h3 class="textBanner"> Welcome to Mighty Ducks Hockey League</h3>
-            <img class="imgIndex" src="./assets/imagenes/hockey-banner.jpg" alt="img de bienvenida">
-        </section>
+        </div>
+        <h1 class="titulo"> Welcome to Mighty Ducks Hockey League</h1>
+    </header>
+
+    <main class="contenedor_principal">
 
         <!-- Contenedor de la informacion que hay en el index -->
         <div class="contenedor_de_informacion">
-            <div class="card">
-                <section class="sectionInfo">
-                    <img class="imgContenedorInfo" src="./assets/imagenes/hockey-1.jpg" alt="jugador de hockey">
-                    <h3>August 4</h3>
-                    <p>MDSL Fundraiser</p>
-                </section>
-                <section class="sectionInfo">
-                    <img class="imgContenedorInfo" src="./assets/imagenes/hockey-2.jpg" alt="jugador de hockey">
-                    <h3>August 16</h3>
-                    <p>Season Kick-off: Meet the Teams </p>
-                </section>
-                <section class="sectionInfo">
-                    <img class="imgContenedorInfo" src="./assets/imagenes/hockey-3.jpg" alt="jugador de hockey">
-                    <h3>September 1</h3>
-                    <p>First Game of the Season (Check Game Schedule for details)</p>
-                </section>
-            </div>
-            <figure>
-                <img class="fotoContenedorDeInfo" src="./assets/imagenes/hockey-2.jpg"
-                    alt="Photo of a hockey player in a game">
-            </figure>
+            <section class="leyendaIndex">
+                <h3>
+                    Karlos Gordovil: «Una Akademia de Hockey Hielo en castellano y francés abierta al resto del mundo.
+                    Nuevos conceptos de formación y enseñanza basados en el Respeto y el juego limpio”.
+                </h3>
+            </section>
+
+            <section class="hero-section">
+                <div class="card-grid">
+                    <a class="card" href="#">
+                        <div class="card__background" style="background-image: url(./assets/imagenes/foto-index-2.jpg)">
+                        </div>
+                        <div class="card__content">
+                            <p class="card__category">August 4</p>
+                            <h3 class="card__heading">MDSL Fundraiser</h3>
+                        </div>
+                    </a>
+                    <a class="card" href="#">
+                        <div class="card__background" style="background-image: url(./assets/imagenes/foto-index-1.jpg)">
+                        </div>
+                        <div class="card__content">
+                            <p class="card__category">August 16</p>
+                            <h3 class="card__heading">Season Kick-off: Meet the Teams</h3>
+                        </div>
+                    </a>
+                    <a class="card" href="#">
+                        <div class="card__background" style="background-image: url(./assets/imagenes/foto-index-3.jpg)">
+                        </div>
+                        <div class="card__content">
+                            <p class="card__category">September 1</p>
+                            <h3 class="card__heading">First Game of the Season (Check Game Schedule for details)</h3>
+                        </div>
+                    </a>
+
+            </section>
+
+            <section>
+
+            </section>
         </div>
     </main>
     <footer>
