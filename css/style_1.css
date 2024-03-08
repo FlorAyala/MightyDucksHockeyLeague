@@ -115,14 +115,11 @@ section {
     margin-top: 50px;
 }
 
-.imgContenedorInfo {
-    display: none;
-}
-
-.img-contact {
-    display: none;
-}
-
-.redesSociales {
+.imgContenedorInfo,
+.img-contact,
+.redesSociales,
+.col-1,
+.col-2,
+.banner {
     display: none;
 }
