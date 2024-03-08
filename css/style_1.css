@@ -61,6 +61,7 @@ footer {
     bottom: 14rem;
 }
 
+
 .fotoContenedorDeInfo {
     width: 400px;
 }
@@ -70,29 +71,30 @@ ul {
 }
 
 .nav a {
-    text-decoration: none;
-    color: black;
-}
-
-.nav li {
     padding: 20px;
     margin: 10px;
     background-color: rgba(9, 9, 175, 0.582);
     text-align: center;
     border-radius: 5px 5px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
 }
 
 figure {
     width: 30vh;
 }
 
-li:hover {
+a:hover {
     background-color: aqua;
 }
 
-li[href="#"] {
+a[href="#"] {
     background-color: rgb(12, 12, 65);
     color: white;
+    padding: 20px;
+    margin: 10px;
 }
 
 nav {
@@ -111,4 +113,16 @@ section {
 
 .contact {
     margin-top: 50px;
+}
+
+.imgContenedorInfo {
+    display: none;
+}
+
+.img-contact {
+    display: none;
+}
+
+.redesSociales {
+    display: none;
 }
