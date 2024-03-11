@@ -223,14 +223,13 @@ main {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 5rem 1.5rem;
+    padding: 2.5rem 1.5rem;
 }
 
 .contenedorAbout img {
     width: 450px;
     border-radius: 1rem;
     box-shadow: 3px 3px rgba(0, 0, 0, 0.6);
-
 }
 
 .contenedorAbout section {
@@ -277,15 +276,13 @@ th {
     font-size: 30px;
     border-bottom: solid 5px 0.5;
     padding: 13px;
-
 }
 
 tbody {
-    background-color: rgba(60, 82, 206, 0.658);
-    color: black;
+    background: linear-gradient(#3867cc, #21247ece);
+    color: white;
     font-size: 20px;
-    font-weight: 900;
-
+    font-weight: 700;
 }
 
 table,
@@ -311,6 +308,10 @@ table {
     padding: 4rem;
 }
 
+.textoInfoGames div {
+    padding: 10px;
+}
+
 /* RULES */
 
 .contenedorRules {
@@ -321,7 +322,6 @@ table {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .texto-rules section,
@@ -334,8 +334,6 @@ table {
 }
 
 
-
-
 /* Contact */
 .contenedorBannerContact {
     display: flex;
@@ -345,7 +343,6 @@ table {
 
 .bannerContact {
     width: 70%;
-
 }
 
 #contenedorContacto {
@@ -365,7 +362,6 @@ table {
     box-shadow: 3px 3px rgba(0, 0, 0, 0.496);
     transition: all 0.5s;
     border-radius: 0.5rem;
-
 }
 
 .img-contact:hover {
@@ -375,17 +371,15 @@ table {
 .mailContact {
     background: var(--azulIntermedio);
     box-shadow: 0 0 10px var(--azulIntermedio), 0 0 40px var(--azulIntermedio), 0 0 80px var(--azulIntermedio);
-
 }
 
 .redesSociales {
-
     font-size: 28px;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 228px;
-    margin-left: -14vh;
+    margin-left: -30vh;
     justify-content: center;
     margin-top: 47vh;
 }
@@ -406,6 +400,13 @@ table {
 
 .logoRedes:hover {
     transform: scale(1.2);
+}
+
+.text-form {
+    text-align: center;
+    font-size: 30px;
+    padding-left: 7vh;
+    padding-bottom: 8px;
 }
 
 .form-container {
@@ -505,7 +506,7 @@ table {
 }
 
 .form-container .form-submit-btn:hover {
-    background-color: #fff;
+    background-color: #483cf15d;
     border-color: #fff;
 }
 
@@ -522,7 +523,6 @@ footer {
     line-height: 1.5em;
     display: flex;
     justify-content: space-around;
-
 }
 
 .col-1 {
@@ -557,7 +557,6 @@ footer p {
     font-size: 22px;
     margin: 10px;
     cursor: pointer;
-
 }
 
 .ul-footer {
