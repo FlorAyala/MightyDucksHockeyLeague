@@ -35,25 +35,43 @@
         </figure>
         <!-- Contenedor de la informacion que hay en el contact -->
         <div class="contenedor_de_informacion" id="contenedorContacto">
-            <img class="img-contact" src="./assets/imagenes/design1_image1.jpg"
+            <img class="img-contact" src="./assets/imagenes/contact-2.jpg"
                 alt="dos jugadores en un partido de hockey sobre hielo">
             <p class="contact">
                 Please email us at <a class="mailContact" href="mdhl@chihockey.org">mdhl@chihockey.org</a>
                 <br>We reply to your email as soon as we can.
             </p>
-            <figure>
-                <img class="fotoContenedorDeInfo" src="./assets/imagenes/hockey-2.jpg"
-                    alt="Photo of a hockey player in a game">
-            </figure>
+            <!-- REDES SOCIALES -->
             <section class="redesSociales">
                 <h4>Social networks</h4>
                 <div class="redes">
-                    <img class="logoRedes" src="./assets/imagenes/whatsapp.png" alt="logo de whatsapp">
-                    <img class="logoRedes" src="./assets/imagenes/facebook.png" alt="logo de facebook">
-                    <img class="logoRedes" src="./assets/imagenes/instagram.png" alt="logo de instagram">
+                    <a href="https://www.whatsapp.com/?lang=es_LA" target="_blank"><img class="logoRedes"
+                            src="./assets/imagenes/whatsapp.png" alt="logo de whatsapp"></a>
+                    <a href="https://www.facebook.com/" target="_blank"><img class="logoRedes"
+                            src="./assets/imagenes/facebook.png" alt="logo de facebook"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img class="logoRedes"
+                            src="./assets/imagenes/instagram.png" alt="logo de instagram"></a>
+                </div>
+            </section>
+            <!-- FORM COMENTARIO -->
+            <section>
+                <div class="form-container">
+                    <form class="form">
+                        <div class="form-group">
+                            <label for="email">Company Email</label>
+                            <input type="text" id="email" name="email" required="">
+                        </div>
+                        <div class="form-group">
+                            <label for="textarea">How Can We Help You?</label>
+                            <textarea name="textarea" id="textarea" rows="10" cols="50"
+                                required="">          </textarea>
+                        </div>
+                        <button class="form-submit-btn" type="submit">Submit</button>
+                    </form>
                 </div>
             </section>
         </div>
+
     </main>
     <footer>
         <div class="col-1">
@@ -67,9 +85,12 @@
         <section class="col-2">
             <h3>Social networks </h3>
             <ul class="ul-footer">
-                <li><i class="fa-brands fa-facebook fa-beat-fade fa-xl"></i>
-                <li> <i class="fa-brands fa-twitter fa-beat-fade fa-xl"></i></li>
-                <li><i class="fa-brands fa-instagram fa-beat-fade fa-xl"></i></li>
+                <li><a href="https://www.facebook.com/" target="_blank"><i
+                            class="fa-brands fa-facebook fa-beat-fade fa-xl"></i></a></li>
+                <li><a href="https://twitter.com/" target="_blank"><i
+                            class="fa-brands fa-twitter fa-beat-fade fa-xl"></i></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank"><i
+                            class="fa-brands fa-instagram fa-beat-fade fa-xl"></i></a></li>
             </ul>
         </section>
     </footer>
