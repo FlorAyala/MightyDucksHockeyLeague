@@ -773,20 +773,57 @@ fieldset input {
     width: 65%;
     height: 3rem;
 }
-form button {
+
+
+.btn {
+    border: none;
+    text-transform: uppercase;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    font-weight: 700;  
+    background-color: #222;    
     font-size: 15px;
     color: #fff;
-    border-radius: 6px;
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    align-self: flex-start;
-    font-family: inherit;
-    font-weight: 600;
-    width: 40%;
-    background: rgb(10, 3, 73);
-    border: 1px solid #40c9ff;
+    width: 52%;
     padding: 12px 16px;
     margin-top: 8px;
     cursor: pointer;
-}
+  }
+  
+  .btn span {
+    position: relative; 
+    z-index: 1;
+  }
+  
+  .btn:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 490%;
+    width: 140%;
+    background: #067888;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+    transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  }
+  
+  .btn:hover:after {
+    -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+    transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  }
+  
+  .link {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  
+  .link a {
+    color: #000;
+    font-size: 25px; 
+  }
