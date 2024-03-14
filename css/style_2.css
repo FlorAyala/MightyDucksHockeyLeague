@@ -738,6 +738,7 @@ figure {
 fieldset input {
     margin-bottom: 1.5rem;
     padding-left: 1rem;
+    border: 1px solid var(--celeste);
 }
 
 .datosForm legend{
@@ -767,6 +768,10 @@ fieldset input {
     display: flex;
     padding-top: 5rem;
     justify-content: center;
+}
+.signature{
+    width: 65%;
+    height: 3rem;
 }
 form button {
     font-size: 15px;
