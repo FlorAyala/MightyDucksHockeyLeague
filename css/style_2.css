@@ -397,10 +397,11 @@ table {
 .textoInfoGames div {
     padding: 10px;
 }
-.mapsText{
+
+.mapsText {
     text-align: center;
     font-size: 2.5rem;
-    
+
 }
 
 .maps {
@@ -712,14 +713,15 @@ figure {
     padding: 5rem;
     position: relative;
     left: 200px;
-    cursor: pointer;  
-    font-family:fantasy;  
+    font-family: fantasy;
 }
-.contenedorForm{
+
+.contenedorForm {
     background-color: #b7c9e2;
     padding: 2rem;
-    border-radius: 2rem ;
+    border-radius: 2rem;
     box-shadow: 0 0 20px 10px rgba(18, 64, 70, 0.5);
+    cursor: pointer;
 
 }
 
@@ -736,12 +738,12 @@ figure {
 }
 
 fieldset input {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     padding-left: 1rem;
     border: 1px solid var(--celeste);
 }
 
-.datosForm legend{
+.datosForm legend {
     font-size: 20px;
     font-weight: 600;
 }
@@ -750,26 +752,30 @@ fieldset input {
     padding-left: 48px;
 }
 
-.zipCode{
+.zipCode {
     padding-left: 10rem;
 }
-.gender{
+
+.gender {
     padding-left: 6.5rem;
 }
 
-.form-calles{
+.form-calles {
     width: 81%;
 }
-.imgForm{
+
+.imgForm {
     width: 70rem;
-    
+
 }
-.contenedorImgForm{
+
+.contenedorImgForm {
     display: flex;
     padding-top: 5rem;
     justify-content: center;
 }
-.signature{
+
+.signature {
     width: 65%;
     height: 3rem;
 }
@@ -781,8 +787,8 @@ fieldset input {
     outline: none;
     overflow: hidden;
     position: relative;
-    font-weight: 700;  
-    background-color: #222;    
+    font-weight: 700;
+    background-color: #222;
     font-size: 15px;
     color: #fff;
     display: flex;
@@ -791,15 +797,14 @@ fieldset input {
     width: 52%;
     padding: 12px 16px;
     margin-top: 8px;
-    cursor: pointer;
-  }
-  
-  .btn span {
-    position: relative; 
+}
+
+.btn span {
+    position: relative;
     z-index: 1;
-  }
-  
-  .btn:after {
+}
+
+.btn:after {
     content: "";
     position: absolute;
     left: 0;
@@ -811,19 +816,19 @@ fieldset input {
     transition: all .5s ease-in-out;
     -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
     transform: translateX(-98%) translateY(-25%) rotate(45deg);
-  }
-  
-  .btn:hover:after {
+}
+
+.btn:hover:after {
     -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
     transform: translateX(-9%) translateY(-25%) rotate(45deg);
-  }
-  
-  .link {
+}
+
+.link {
     font-size: 20px;
     margin-top: 30px;
-  }
-  
-  .link a {
+}
+
+.link a {
     color: #000;
-    font-size: 25px; 
-  }
+    font-size: 25px;
+}
