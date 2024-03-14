@@ -7,9 +7,8 @@
     <meta name="description" content="Mighty Ducks Hockey League page">
     <meta name="keywords" content="ice hockye, sport, school ">
     <meta name="author" content="Florencia Ayala">
-    <link rel="shortcut icon" href="./assets/imagenes/Logo-Mighty-ducks-01.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/imagenes/ico-logo.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-
     <link rel="stylesheet" href="./css/style_2.css">
     <script src="https://kit.fontawesome.com/e337b11929.js" crossorigin="anonymous"></script>
 
@@ -54,7 +53,7 @@
                     <label for="zipNumber" class="zipCode">Zip Code: </label>
                     <input type="number" placeholder="zip Code" name="zipNumber" id="zipNumber">
                     <br>
-                    <label for="birthDate">Birthday (mm/dd/yyyy): </label>
+                    <label for="birthDate">Birth Date (mm/dd/yyyy): </label>
                     <input type="date" name="birthDate" id="birthDate">
 
                     <label for="genero" class="gender">Gender: </label>
@@ -64,7 +63,7 @@
                     <label>Male</label>
                     <br>
 
-                    <label for="grade">Grade: </label>
+                    <label for="grade" class="grade">Grade: </label>
                     <input type="radio" name="grade" id="grade" value="grade">
                     Pre-School
                     <input type="radio" name="grade" id="primero" value="1st">
@@ -130,8 +129,8 @@
                     <input type="radio" name="uniform" id="large" value="Large">
                     Large
                     <br>
-                    <input type="radio" name="uniform" id="extraLarge" value="Extra Large">
-                    Extra Large
+                    <input type="radio" name="uniform" id="extraLarge" value="Extra-Large">
+                    Extra-Large
 
                 </fieldset>
 
@@ -149,20 +148,25 @@
                         practices and games, against any claim by or on behalf of the registrant as a result of the
                         registrant's participation in the programand/orbeing transported to or from MDHL sponsored
                         activities,which transportation. <br>
-                        By signing below, I herebyagree andauthorizethe above.In addition, by signing below, lalso
+                        By entering your name below, I herebyagree andauthorizethe above.In addition, by signing below,
+                        lalso
                         acknowledge that I have read the cancellation policy and agree to its terms.
                     </p>
                     <br>
-                    Parent/GuardianSignature: <input type="text" name="parent_guardian" id="firma">
+                    Parent/Guardian Signature: <input type="text" name="parent_guardian" id="firma">
                     <br>
                     Date: <input type="date" name="date" id="fecha">
                 </fieldset>
                 <button type="submit">Send</button>
-                
+
             </form>
 
+            <figure class="contenedorImgForm">
+                <img class="imgForm" src="./assets/imagenes/bannerForm.png" alt="jugadores en pleno partido">
+            </figure>
         </section>
     </main>
+
     <footer>
         <div class="col-1">
             <a href="index.html">Home</a>
