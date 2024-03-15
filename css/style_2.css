@@ -732,9 +732,12 @@ figure {
     font-style: oblique;
 }
 
-.datosForm {
+.datosForm, .datosFormText {
     border: none;
     padding: 1rem;
+}
+.datosFormText p{    
+    padding-bottom: 2rem;
 }
 
 fieldset input {
@@ -742,6 +745,7 @@ fieldset input {
     padding-left: 1rem;
     border: 1px solid var(--celeste);
 }
+
 
 .datosForm legend {
     font-size: 20px;
