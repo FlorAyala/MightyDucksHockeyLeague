@@ -747,7 +747,7 @@ fieldset input {
 }
 
 
-.datosForm legend {
+.datosForm legend, .datosFormText legend{
     font-size: 20px;
     font-weight: 600;
 }
